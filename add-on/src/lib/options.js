@@ -24,8 +24,8 @@ exports.optionDefaults = Object.freeze({
   catchUnhandledProtocols: true,
   displayNotifications: true,
   displayReleaseNotes: false,
-  customGatewayUrl: 'http://192.168.126.128:8080',
-  ipfsApiUrl: 'http://192.168.126.128:5001',
+  customGatewayUrl: 'http://192.168.0.15:8080',
+  ipfsApiUrl: 'http://192.168.0.15:5001',
   ipfsApiPollMs: 3000,
   ipfsProxy: true, // window.ipfs
   logNamespaces: 'jsipfs*,ipfs*,libp2p:mdns*,libp2p-delegated*,-*:ipns*,-ipfs:preload*,-ipfs-http-client:request*,-ipfs:http-api*',
